@@ -7,6 +7,8 @@
     box-sizing: border-box;
     background-color: black; 
     color: white; 
+    font-family: 'Josefin Slab', serif; 
+    font-style: italic;
 }
 
 
@@ -92,7 +94,7 @@ header > .container {
 }
 
 header::before {
-    content: "read this";
+    content: "";
     margin-right: 20%;
     width:200px;
     height: 200px;
