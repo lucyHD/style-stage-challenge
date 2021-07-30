@@ -78,45 +78,25 @@ nav  ul li:nth-child(1)  a:hover {
 
 header {
     display: flex; 
+    height: 397px; 
     justify-content: space-evenly; 
     margin-top: 10%; 
-    margin-bottom: 10%; 
+    margin-bottom: 5%; 
     font-family: 'Antic Didone', serif; 
 }
 
 header > .container {
-    /* border: blue 5px solid;  */
     width: 50%; 
+    height: 95%; 
     padding: 10px;
     display: flex; 
     flex-direction: column; 
     align-items: center; 
-    /* animation-name: header-border;
-    animation-duration: 8s;
-    animation-timing-function: cubic-bezier(0.42,0,1,1); */
+   
 }
 
-/* @keyframes header-border {
-
-    25% {
-        border-bottom: solid white 1px;
-    }
-
-    40% {
-        border-right: solid white 1px; 
-    }
-    75% {
-        border-top: solid white 1px; 
-    }
-    100% {
-        border-left: solid white 1px;
-    }
-
-} */
-
-header > .container > a {
-    width: 10px;
-    height: 10px;
+header .container > a > span > svg {
+    display: none; 
 }
 
    /* MOON */
