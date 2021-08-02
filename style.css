@@ -537,6 +537,29 @@ main p a:hover{
 /* BUTTON LINKS ABOVE */
 
 
+/* UL LIST OF MODERN CSS FEATURES UNDENEATH */
+
+#about > section:nth-child(2) > ul {
+    list-style-type: none; 
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+}
+
+#about > section:nth-child(2) > ul > li {
+    background-color: #f7d560; 
+    text-decoration: none; 
+    /* width: 100px;  */
+    /* height: 50px;  */
+    padding: 20px;
+    color: white; 
+    margin: 10px; 
+}
+
+
+/* UL LIST OF MODERN CSS FEATURES ABOVE */
+
+
 /* LAYOUT UNDERNEATH */
  #main {
      border: red 5px solid; 
