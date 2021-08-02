@@ -7,14 +7,13 @@
     box-sizing: border-box;
     background-color: black; 
     color: white; 
-    /* font-family: 'Josefin Slab', serif; 
-    font-style: italic; */
+    font-family: 'Antic Didone', serif; 
 }
 
 
-
 body {
-    margin: 0; 
+    margin: 0;
+    /* background-color: black;  */
 }
 
 /* NAV BAR UNDERNEATH */
@@ -23,7 +22,7 @@ nav {
     top:0px; 
     min-width: 100%;  
     max-height: 10%; 
-    background-color: blue;
+    /* background-color: black; */
     font-family: 'Josefin Slab', serif; 
     font-style: italic;
   
@@ -78,6 +77,7 @@ nav  ul li:nth-child(1)  a:hover {
 
 header {
     display: flex; 
+    background-color: black; 
     height: 397px; 
     justify-content: space-evenly; 
     margin-top: 10%; 
@@ -96,6 +96,10 @@ header > .container {
 }
 
 header .container > a > span > svg {
+    display: none; 
+}
+
+svg {
     display: none; 
 }
 
@@ -444,6 +448,10 @@ header > .container > .link-github > span::after {
 /* LAYOUT UNDERNEATH */
  #main {
      border: red 5px solid; 
+     -webkit-clip-path: inset(0 round 32% 32% 0 0);
+     /* background-image: linear-gradient(black, #0B1026, #855988);  */
+     background-color: lightyellow; 
+     clip-path: circle(92.6% at 54% 78%);
      display: flex; 
      justify-content: center; 
      align-content: center; 
@@ -452,6 +460,7 @@ header > .container > .link-github > span::after {
 
  #main > .container{
 
+    margin-top: 150px; 
     border: blue 5px solid; 
     width: 80%; 
     align-content: center; 
