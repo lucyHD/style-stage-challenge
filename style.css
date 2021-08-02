@@ -25,6 +25,8 @@ body > a {
     margin: 15px; 
 }
 
+
+
 /* TITLES */
 
 main h2 {
@@ -93,6 +95,7 @@ nav  ul li:nth-child(1)  a:hover {
 
 
 /* NAV BAR ABOVE  */
+
 
 
 /* HEADER UNDERNEATH */
@@ -486,6 +489,54 @@ header > .container > .link-github > span::after {
 /* HEADER ABOVE */
 
 
+/* LINKS UNDERNEATHER - FOR MAIN SECTION  */
+
+main p a { 
+    color: #f7d560; 
+    text-decoration: none; 
+}
+
+/* visited */
+
+main p a:visited {
+    color: lightgrey; 
+}
+
+/* hover */
+
+main p a:hover{
+    border-bottom: 1px solid #f7d560;
+}
+
+/* active  */
+
+.link-guidelines {
+
+    color: #f7d560; 
+    text-decoration: none; 
+    width: 100px; 
+    height: 50px; 
+    padding: 20px;
+    background-color: white; 
+}
+
+/* LINKS ABOVE - FOR MAIN SECTIONL  */
+
+/* BUTTON LINKS UNDERNEATH */
+
+.link-guidelines, .link-downloadcss, .link-downloadhtml, .link-codepen {
+
+    background-color: #f7d560; 
+    text-decoration: none; 
+    width: 100px; 
+    height: 50px; 
+    padding: 20px;
+    color: white; 
+}
+
+/* BUTTON LINKS ABOVE */
+
+
 /* LAYOUT UNDERNEATH */
  #main {
      border: red 5px solid; 
@@ -528,5 +579,6 @@ header > .container > .link-github > span::after {
 
  }
 /* LAYOUT ABOVE */
+
 
 
